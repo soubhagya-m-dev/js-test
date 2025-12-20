@@ -67,3 +67,4 @@ let stringNumber = String(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber);
 
+// 39 => "39"
