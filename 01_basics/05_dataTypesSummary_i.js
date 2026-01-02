@@ -30,4 +30,30 @@ const myFunction = function () {
 }
 myFunction() //all the non primitive datatype typeof is object and for the function it is function object
 
+//Memory : Stack (Primitive) , Heap(Non Primitive)
+
+/*
+    when Stack memory used => get copy of the variable
+    when Heap memory used => get reference of the variable
+*/
+
+let userOne = { //Heap
+    email: "userOne@gmail.com",
+    upi: "One@abc"
+}
+
+let userTwo = userOne //used refernece thatswhy value change for both object
+userTwo.email = "userTwo@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+let accountNumOne = 587354 //example of stack 
+let accountNumTwo = accountNumOne
+accountNumTwo = 122385
+console.log(accountNumOne);
+console.log(accountNumTwo);
+
+
+
 
