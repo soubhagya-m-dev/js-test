@@ -36,12 +36,14 @@ const newArr = myArr.join() //using this a array can be converted in string
 
 
  const myA2 = myArr.slice(1,3) //print index 1 to 2
- console.log(myA2);
- console.log("B", myArr); //no change in original array
+ //console.log(myA2);
+ //console.log("B", myArr); //no change in original array
 
  const myA3 = myArr.splice(1,3) //print index 1 to 3
- console.log(myA3);
- console.log("C", myArr); //changes in original array
+ //console.log(myA3);
+ //console.log("C", myArr); //changes in original array
+
+ 
  
  
  
