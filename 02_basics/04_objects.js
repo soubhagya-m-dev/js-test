@@ -64,6 +64,27 @@ const users = [
 ]
 // console.log(users[0].email);
 
+//object destructuring 
+const course = {
+    courseName : "JS master",
+    price : 998,
+    courseInstructor : "Mr. Sam Colt"
+}
+console.log(course.courseInstructor);
+
+const {courseInstructor} = course
+console.log(courseInstructor);
+
+const {courseInstructor : instructor} = course
+console.log(instructor); //this all prints the same but using less words
+
+/*
+api simplification
+website : https://randomuser.me/ here get api
+website : https://jsonformatter.org/ here understand the api
+
+
+
 
 
 
