@@ -82,7 +82,7 @@ console.log(instructor); //this all prints the same but using less words
 api simplification
 website : https://randomuser.me/ here get api
 website : https://jsonformatter.org/ here understand the api
-
+*/
 
 
 
